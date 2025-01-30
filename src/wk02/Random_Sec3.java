@@ -2,7 +2,7 @@ package wk02;
 
 import java.util.Random;
 
-public class Random_Sec1 {
+public class Random_Sec3 {
     public static void main(String[] args) {
         int x = 5;
         int y = 2;
