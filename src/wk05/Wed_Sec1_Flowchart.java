@@ -2,7 +2,7 @@ package wk05;
 
 import java.util.Scanner;
 
-public class Wed_Sec3_Flowchart {
+public class Wed_Sec1_Flowchart {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter your age: ");
