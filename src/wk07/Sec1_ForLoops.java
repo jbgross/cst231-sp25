@@ -51,5 +51,12 @@ public class Sec1_ForLoops {
         }
         System.out.println();
         System.out.println("the final value of k is: " + k);
+
+        int o;
+        for(o = 0; o < 5; o++) {
+            System.out.print(o + " ");
+        }
+        System.out.println();
+        System.out.println("the final value of o is " + o);
     }
 }
