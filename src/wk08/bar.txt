@@ -1,0 +1,6 @@
+3
+hello
+ciao
+bienvenido
+salud
+goodbye
