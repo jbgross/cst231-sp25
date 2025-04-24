@@ -57,4 +57,43 @@ public class Sec1_String_Wed {
             System.out.println();
         }
     }
+
+    public static int sumEvens(int [][] data) {
+        int evenSum = 0;
+        for(int r = 0; r < data.length; r++) {
+            for(int c = 0; c < data[r].length; c++) {
+                if(data[r][c] % 2 == 0) {
+                    evenSum += data[r][c];
+                }
+            }
+        }
+        return evenSum;
+    }
+
+    public static void sumEvenAndOdd1(int [][] data) {
+        int evenSum = sumEvens(data);
+        int sum = 0; //sum(data);
+        int oddSum = sum - evenSum;
+        System.out.println("evens: " + evenSum);
+        System.out.println("odds: " + oddSum);
+        System.out.println("total: " + sum);
+    }
+
+
+    public static void sumEvenAndOdd2(int [][] data) {
+        int evenSum = sumEvens(data);
+        int sum = 0; //sum(data);
+        int oddSum = 0;
+        for(int r = 0; r < data.length; r++) {
+            for(int c = 0; c < data[r].length; c++) {
+                if(data[r][c] % 2 != 0) {
+
+                }
+            }
+        }
+        System.out.println("evens: " + evenSum);
+        System.out.println("odds: " + oddSum);
+        System.out.println("total: " + sum);
+    }
+
 }
