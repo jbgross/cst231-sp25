@@ -24,7 +24,7 @@ public class Sec3_Wed_Search {
 
     public static int findLargestValue2(int [] data) {
         int largest = Integer.MIN_VALUE;
-        for (int i = 0; i < data.length; i++) {
+        for (int i = 0; i < data.length;  i++) {
             if(data[i] > largest) {
                 largest = data[i];
             }
